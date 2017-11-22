@@ -1,11 +1,37 @@
-# frozen_string_literal: true
-
-# This file should contain all the record creation needed to seed the database
-# with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the
-# db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Make.create(nhtsa_make_id:440, make_name: "Aston Martin");
+Make.create(nhtsa_make_id:441, make_name: "Tesla");
+Make.create(nhtsa_make_id:442, make_name: "Jaguar");
+Make.create(nhtsa_make_id:443, make_name: "Maserati");
+Make.create(nhtsa_make_id:444, make_name: "Land Rover");
+Make.create(nhtsa_make_id:445, make_name: "Rolls Royce");
+Make.create(nhtsa_make_id:448, make_name: "Toyota");
+Make.create(nhtsa_make_id:449, make_name: "Mercedes-Benz");
+Make.create(nhtsa_make_id:452, make_name: "BMW");
+Make.create(nhtsa_make_id:454, make_name: "Bugatti");
+Make.create(nhtsa_make_id:460, make_name: "Ford");
+Make.create(nhtsa_make_id:464, make_name: "Lincoln");
+Make.create(nhtsa_make_id:465, make_name: "Mercury");
+Make.create(nhtsa_make_id:466, make_name: "Lotus");
+Make.create(nhtsa_make_id:467, make_name: "Chevrolet");
+Make.create(nhtsa_make_id:468, make_name: "Buick");
+Make.create(nhtsa_make_id:469, make_name: "Cadillac");
+Make.create(nhtsa_make_id:472, make_name: "GMC");
+Make.create(nhtsa_make_id:473, make_name: "Mazda");
+Make.create(nhtsa_make_id:474, make_name: "Honda");
+Make.create(nhtsa_make_id:475, make_name: "Acura");
+Make.create(nhtsa_make_id:476, make_name: "Dodge");
+Make.create(nhtsa_make_id:477, make_name: "Chrysler");
+Make.create(nhtsa_make_id:478, make_name: "Nissan");
+Make.create(nhtsa_make_id:480, make_name: "Infiniti");
+Make.create(nhtsa_make_id:481, make_name: "Mitsubishi");
+Make.create(nhtsa_make_id:482, make_name: "Volkswagen");
+Make.create(nhtsa_make_id:483, make_name: "Jeep");
+Make.create(nhtsa_make_id:485, make_name: "Volvo");
+Make.create(nhtsa_make_id:492, make_name: "Fiat");
+Make.create(nhtsa_make_id:498, make_name: "Hyundai");
+Make.create(nhtsa_make_id:499, make_name: "Kia");
+Make.create(nhtsa_make_id:572, make_name: "SAAB");
+Make.create(nhtsa_make_id:582, make_name: "Audi");
+Make.create(nhtsa_make_id:583, make_name: "Bentley");
+Make.create(nhtsa_make_id:584, make_name: "Porsche");
+Make.create(nhtsa_make_id:603, make_name: "Ferrari");
