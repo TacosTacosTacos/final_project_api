@@ -4,7 +4,7 @@ class MakesController < OpenReadController
   # GET /makes
   # GET /makes.json
   def index
-    @makes = Make.all
+    @makes = Make.all.order('make_name')
 
     render json: @makes
   end
