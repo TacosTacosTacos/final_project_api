@@ -5,7 +5,6 @@ class MakesController < OpenReadController
   # GET /makes.json
   def index
     @makes = Make.all.order('make_name')
-
     render json: @makes
   end
 
@@ -14,6 +13,11 @@ class MakesController < OpenReadController
   def show
     render json: Make.find(params[:id])
   end
+
+  def test
+    render json: {}
+  end
+
 
   def make_params
     params.require(:make).permit(:text)
