@@ -24,7 +24,7 @@ class NhtsaController < ApplicationController
     if response_status == '200'
       response_body = response.read
       data_hash = JSON.parse(response_body)
-      storage['results'] = data_hash['Results']
+      storage['carmodels'] = data_hash['Results']
     end
 
     render json: storage

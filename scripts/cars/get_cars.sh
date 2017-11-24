@@ -1,7 +1,7 @@
-#!/bin/bash
-TOKEN=2683444ea5fd4e7ffeb87969917ee776
 API="${API_ORIGIN:-http://localhost:4741}"
-URL_PATH="/examples"
+URL_PATH="/cars"
+TOKEN="BAhJIiVjYzgxYTMzYTNlZDkyMjI3NzkyNDY1NmNlY2MwMzc5YgY6BkVG--18a103b61db3e3d39cc342d6958b207c300ed0b1"
+
 curl "${API}${URL_PATH}" \
   --include \
   --request GET \
