@@ -10,7 +10,7 @@ class MileagesController < ProtectedController
     # @mileages = {
     #   'mileages': @mileagesArray.flatten
     # }
-    @mileages = current_user.mileages
+    @mileages = current_user.mileages.order('car_id').order('purchase_date')
 
     render json: @mileages
   end
