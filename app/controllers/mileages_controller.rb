@@ -3,7 +3,7 @@ class MileagesController < ProtectedController
 
   # GET /mileages
   def index
-    @mileages = current_user.mileages.order('car_id').order('purchase_date')
+    @mileages = current_user.mileages.order('purchase_date')
 
     render json: @mileages
   end

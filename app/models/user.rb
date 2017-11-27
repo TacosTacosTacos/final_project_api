@@ -6,4 +6,5 @@ class User < ApplicationRecord
   has_many :cars
   has_many :makes, through: :cars
   has_many :mileages, through: :cars
+  has_many :services, through: :cars
 end
