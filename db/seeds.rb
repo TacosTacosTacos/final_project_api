@@ -36,8 +36,8 @@ Make.create(nhtsa_make_id:583, make_name: "Bentley");
 Make.create(nhtsa_make_id:584, make_name: "Porsche");
 Make.create(nhtsa_make_id:603, make_name: "Ferrari");
 
-Service_type.create(name: "Oil Change");
-Service_type.create(name: "Tire Rotation");
-Service_type.create(name: "Brake Change");
-Service_type.create(name: "Routine Maintenance");
-Service_type.create(name: "Other");
+ServiceType.create(name: "Oil Change");
+ServiceType.create(name: "Tire Rotation");
+ServiceType.create(name: "Brake Change");
+ServiceType.create(name: "Routine Maintenance");
+ServiceType.create(name: "Other");

@@ -14,11 +14,6 @@ class MakesController < OpenReadController
     render json: Make.find(params[:id])
   end
 
-  def test
-    render json: {}
-  end
-
-
   def make_params
     params.require(:make).permit(:text)
   end
